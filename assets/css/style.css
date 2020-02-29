@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgba(204, 51, 102, 1), rgba(117, 58, 136, 1));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    height: 0px;
+    background-color: #FFFFFF;
+}
+
+table, td, th {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #ededed;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: #42275a;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.edit {
+    width: 70px;
+    background-color: #134f8b;
+}
+
+.delete {
+    background-color: #de0b0b;
+    width: 70px;
+}
+
+.add {
+    color: #FFFFFF;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a>span {
+    border-bottom: 2px solid white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 70px;
+    color: #FFFFFF;
+}
